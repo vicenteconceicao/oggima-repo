@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/oggima
+    username: oggima
+    password: chQjLyKz%!Uj
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
