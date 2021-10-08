@@ -7,5 +7,5 @@ spring:
   jpa:
     hibernate:
       dialect: org.hibernate.dialect.SQLServer2012Dialect
-      ddl-auto: create-drop
-    show-sql: 'true'
+      ddl-auto: update
+    show-sql: true
